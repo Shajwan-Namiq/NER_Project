@@ -1,0 +1,21 @@
+# This prevents secrets, models, cache files from being pushed.
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter(google colab)
+.ipynb_checkpoints/
+
+# Models
+models/*.pkl
+
+# Environment / secrets
+.env
+*.key
+*token*
+
+# OS
+.DS_Store
+Thumbs.db
